@@ -60,17 +60,15 @@ public class Unidad4Ejercicio4 {
         for (int i = 0; i < alumnos.length; i++) {
             System.out.println(alumnos[i] + "\t" + notas[i]);
         }
-
     }
 
-    /* for (int i = 0;
-    i< notas.length ;
-    i
-
-    
-        ++) {
+    public static double calcularMedia(int[] notas) {// Aqui nos hemos quedado, calculando la media
+        double media, tnotas=0, num=0;
+        for (int i = 0;i < notas.length; i++) {
             tnotas += notas[i];
+        }
+        media = tnotas / num;
+        return media;
     }
-    media  = tnotas / num;
-}*/
 }
+
